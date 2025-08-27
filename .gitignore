@@ -1,0 +1,9 @@
+# .gitignore
+.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+terraform.tfvars
+*.zip
+*.tar.gz
+
