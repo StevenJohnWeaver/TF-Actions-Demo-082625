@@ -38,6 +38,6 @@ resource "aws_instance" "web_server" {
   instance_type = "t2.large"
   tags = {
     Name = "HelloWorldServer"
-    cost-center = "dev"
+    cost-center = "prod"
   }
 }
