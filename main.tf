@@ -1,3 +1,12 @@
+terraform {
+  cloud {
+    organization = "steve-weaver-demo-org"
+    workspaces {
+      name = "TF-Basic-Demo-082625"
+    }
+  }
+}
+
 # Configure the AWS provider
 terraform {
   required_providers {
