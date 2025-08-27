@@ -1,3 +1,4 @@
+# Configure Cloud credentials
 terraform {
   cloud {
     organization = "steve-weaver-demo-org"
